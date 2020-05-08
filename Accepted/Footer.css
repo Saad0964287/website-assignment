@@ -1,0 +1,274 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.BlackRibbon {
+    visibility: visible ;
+    background-color: rgba(14, 25, 39, 0.849);
+    color: white;
+    height: 385px;
+    border: none;
+}
+
+
+.imgs{
+    position: relative;
+    top: 4px;
+    height: 17px;
+    width: 17px;
+}
+ 
+
+
+.Headoffice{
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    font-size: 14px;
+    color: lightgrey;
+    line-height: 25px;
+    width: 300px;
+    /* margin: 75px 0px 40px 48px; */
+    text-align: left;
+    position: relative;
+    right: 150px;
+    top: 80px;
+}
+
+.contact{
+    margin:0px 0px 0px 5px;
+    text-align: left;
+}
+
+
+ /* Useful link Partition */
+
+.UseLink{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: inline-block;
+    width: 300px;
+    text-align: left;
+    vertical-align: top;
+    /* margin-top: 50px; */
+    position: relative;
+    top: 50px;
+    right: 130px;
+}
+
+.useful{
+    font-size: 17px;
+    color: white;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: left;
+}
+
+.dash1{
+    color: green;
+    font-weight: bold;
+}
+
+.dash2{
+    color: white;
+    font-weight: bold;
+}
+
+
+
+
+/* Connect Us Partition */
+
+.Connect{
+    display: inline-block;
+    width: 300px;
+    font-weight: bolder;
+    text-align: left;
+    position: relative;
+    bottom: 210px;
+    left: 350px;
+    /* vertical-align: top; */
+    /* margin-top: 50px; */
+}
+
+.with{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 17px;
+}
+
+
+.circleicon{ position: relative;
+    right: 285px;
+    top: 40px;
+    
+}
+
+.fbcircleicon, .twcircleicon, .instacircleicon, .ytcircleicon{
+    height: 13px;
+    width: 13px;
+    background-color: royalblue;
+    border: none;
+    border-radius: 100%;
+    display: inline-block;
+}
+
+.fbcircleicon1{
+    height: 15px;
+    width: 9px;
+    display: inline-block;
+    cursor: pointer;
+
+}
+
+.twcircleicon1{
+    height: 15px;
+    width: 15px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.instacircleicon1{
+    height: 15px;
+    width: 15px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.ytcircleicon1{
+    height: 15px;
+    width: 15px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Blue Ribbon */
+
+
+
+
+
+.BlueRibbon01{
+    text-align: left;
+    background-color: royalblue ;
+    height: 40px;
+    width: 100%;
+    display: inline-block;
+}
+
+.copyright{
+    font-size: 12px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    margin-left: 50px;
+}
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* ========================================================================= */
+
+
+                        /* MEDIA QUREY FOR RESPONSIVE */
+
+
+@media only screen and (max-width : 700px){
+.BlackRibbon{
+    height: 600px;
+    background-color: rgba(14, 25, 39, 0.849);
+    display: block;
+}
+.Headoffice{
+    display: block;
+    position: relative;
+    right: 30px;
+}
+.UseLink{
+    display: block;
+    position: relative;
+    right: 30px;
+    top: 95px;
+}
+
+
+.with{
+    position: relative;
+    right: 380px;
+    top: 310px;
+}
+.circleicon{
+    position: relative;
+    flex-direction: row;
+    top: 350px;
+    right: 670px;
+}
+}
+
+/* ******************************************************* */
+
+@media only screen and (max-width : 400px){
+    .BlackRibbon{
+        height: 600px;
+        background-color: rgba(14, 25, 39, 0.849);
+        display: block;
+    }
+    .Headoffice{
+        display: block;
+        position: relative;
+        left: 10px;
+        margin-left: 10px;
+    }
+    .UseLink{
+        display: block;
+        position: relative;
+        left: 10px;
+        top: 95px;
+    }
+    
+    
+    .with{
+        position: relative;
+        right: 342px;
+        top: 310px;
+    }
+    .circleicon{
+        position: relative;
+        flex-direction: row;
+        top: 350px;
+        right: 630px;
+    }
+    }
+
+
+@media only screen and (max-width : 960px){
+#completefooter001{
+    position: relative;
+    top: 400px;
+
+
+}
+}
+
+@media only screen and (max-width : 850px){
+    #completefooter001{
+        position: relative;
+        top: 400px;
+    }
+    }

@@ -1,0 +1,238 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+.complete{
+  /* height: auto; */
+  /* display: flex;
+  flex-direction: inherit;
+  justify-content: center;
+  flex-wrap: wrap; */
+}
+
+
+
+
+
+
+
+/* ----------------------------------------------------------------------- */
+
+
+
+
+
+
+
+
+/* BlueSlight */
+
+.header1{
+    background-color: royalblue;
+    height: auto;
+    display: flex;
+    flex-wrap: warp;
+    justify-content: center;
+    
+}
+
+@media only screen and (max-width:  960px){
+  .header1{
+    display: block;
+    padding: 10px;
+  } 
+  .millions {
+    color: white;
+    font-size: 13px;
+    flex-wrap: wrap;
+    text-align: center;  
+  }
+    .fbcircleicon1, .twcircleicon1, .instacircleicon1, .ytcircleicon1{
+     
+      height: 15px;
+      width: 15px;
+      background-color: royalblue;
+      border: none;
+      border-radius: 100%; 
+    }
+    .circleicon1{ 
+      display: inline-block;
+      display: block;
+      cursor: pointer;
+    }
+  }
+
+  /* ************************************************** */
+
+    .fbcircleicon1, .twcircleicon1, .instacircleicon1, .ytcircleicon1{
+      height: 15px;
+      width: 15px;
+      background-color: royalblue;
+      border: none;
+      border-radius: 100%;
+      
+     
+    }
+
+
+
+.circleicon1{ 
+  width: 340px;
+    position: relative;
+    top: 55px;
+    right: 270px;
+    display: inline-block;
+    cursor: pointer;
+    margin-left: 8em;
+
+
+}
+
+
+  
+.TopButton{
+  width: 340px;
+    padding: 10px;
+    position: relative;
+    top: 32px;
+    right: 270px;
+    display: inline-block;
+}
+
+
+.millions {
+  width: 400;
+    color: white;
+    font-size: 14px;
+    flex-wrap: wrap;
+    position: relative;
+    top: 12px;
+    text-align: center;    
+}
+
+.Button1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(103, 151, 30);
+    background-color: white;
+    font-size: 11px;
+    height: 32px;
+    width: 70px;
+    border-width: 1px;
+    border-color: rgb(129, 190, 36);
+    cursor: pointer;
+ 
+}
+
+.Button2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(103, 151, 30);
+    background-color: white;
+    font-size: 11px;
+    height: 32px;
+    width: 85px;
+    border-width: 1px;
+    border-color: rgb(129, 190, 36);
+    cursor: pointer;
+}
+
+.Button3{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(103, 151, 30);
+    background-color: white;
+    font-size: 11px;
+    height: 32px;
+    width: 95px;
+    border-width: 1px;
+    border-color: rgb(129, 190, 36);
+    cursor: pointer;
+}
+
+                    
+/* ------------------------------------------------------------------ */
+
+
+
+WhiteSlight
+
+.logo1{
+  width: 20%;
+  display: block;
+  position: relative;
+  left: 35px;
+  top: 15px;
+}
+
+/* .Nevigationbar {
+   background-color: rgb(238, 236, 236);
+   height: 90px;
+
+} */
+
+li{
+    display: inline-block;
+    padding: 10px;
+    position: relative;
+    left: 250px;
+    bottom: 50px;
+    font-size: 12px;
+    
+}
+
+/* .HomeButton{
+    color: white;
+    background-color: royalblue;
+    font-size: 12px;
+    height: 30px;
+    width: 56px;
+    border: none;
+    border-radius: 35%;
+}
+
+.aboutbutton:hover{
+  color: white;
+  background-color: pink;
+  font-size: 12px;
+  height: 30px;
+  width: 56px;
+  border: none;
+  border-radius: 35%;
+}
+.aboutbutton1:hover{
+
+
+}
+#aboutbutton1 :hover{
+
+  
+}
+
+.geo{
+
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---------------------------------------------------------- */
+
+
+
+
+
+
+  /* ------------------------------------------------------ */
+
+
